@@ -10,8 +10,7 @@ if hourFloat > 40:
     totalPay = reg + overtime
 else:
     print('Normal')
-try:
-    totalPay = hourFloat * rateFloat
-except:
-    totalPay = -1
+
+totalPay = hourFloat * rateFloat
+
 print("Your pay is:", totalPay)
